@@ -66,6 +66,10 @@ while(True):
         d = decrypt(int(uKey), uSent)
         print('Decrypted sentence ->', d)
         print('---------------------')
+    else:
+        print('Please retry. Your input was invalid')
+        print('---------------------')
+        continue
     qt = input('Would you like to quit(y/n): ')
     print('\n')
     print('---------------------')
